@@ -50,7 +50,7 @@ const items = [
   },
   {
     name: "Articles",
-    path: "/articles",
+    path: "https://blog.numselli.xyz",
     icon: "solar:document-add-outline",
   },
   {
