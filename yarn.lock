@@ -459,10 +459,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.1.184":
-  version "1.1.184"
-  resolved "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.1.184.tgz"
-  integrity sha512-vptROqbT+ilOBZXncJzYFx5hLtbpA/jxiWGRyNdFBxJokXfJ8k09FWDIPweGvbW0V8MUQYlh0FDfV1qpyZGW3w==
+"@iconify-json/lucide@1.1.186":
+  version "1.1.186"
+  resolved "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.1.186.tgz"
+  integrity sha512-T+ZwxEJ2773EtHE3waU6RmLhvwvtXqmA+6WNbyfN5hg9SwNMhnPxYXcZrEWkaRPbUszsao6YOdtH5G56pgebFg==
   dependencies:
     "@iconify/types" "*"
 
@@ -979,19 +979,19 @@
     vite-plugin-checker "^0.6.4"
     vue-bundle-renderer "^2.0.0"
 
-"@nuxthq/studio@1.0.13":
-  version "1.0.13"
-  resolved "https://registry.npmjs.org/@nuxthq/studio/-/studio-1.0.13.tgz"
-  integrity sha512-C4j+K53om5Kj5xLrehWEbnDJlid5tDsHP7QdOIsK550dHOxPmvaXMH4YxsSNU8cDppMheMbN59zdYhQaQfko6g==
+"@nuxthq/studio@1.0.15":
+  version "1.0.15"
+  resolved "https://registry.npmjs.org/@nuxthq/studio/-/studio-1.0.15.tgz"
+  integrity sha512-FdlSpNk+mCZrA1a3SiZIEm7JFx2pLUtAJfwPfGkllF6vTpCB6Jm1zTnRPw/i3dd20AZ5Ch/P9TOzE61km39NTA==
   dependencies:
-    "@nuxt/kit" "^3.10.3"
+    "@nuxt/kit" "^3.11.2"
     defu "^6.1.4"
     git-url-parse "^14.0.0"
     nuxt-component-meta "^0.6.3"
     parse-git-config "^3.0.0"
-    pkg-types "^1.0.3"
-    socket.io-client "^4.7.4"
-    ufo "^1.4.0"
+    pkg-types "^1.1.0"
+    socket.io-client "^4.7.5"
+    ufo "^1.5.3"
     untyped "^1.4.2"
 
 "@nuxtjs/color-mode@^3.4.0":
@@ -7202,10 +7202,10 @@ smob@^1.0.0:
   resolved "https://registry.npmjs.org/smob/-/smob-1.5.0.tgz"
   integrity sha512-g6T+p7QO8npa+/hNx9ohv1E5pVCmWrVCUzUXJyLdMmftX6ER0oiWY/w9knEonLpnOp6b6FenKnMfR8gqwWdwig==
 
-socket.io-client@^4.7.4:
-  version "4.7.4"
-  resolved "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.7.4.tgz"
-  integrity sha512-wh+OkeF0rAVCrABWQBaEjLfb7DVPotMbu0cgWgyR0v6eA4EoVnAwcIeIbcdTE3GT/H3kbdLl7OoH2+asoDRIIg==
+socket.io-client@^4.7.4, socket.io-client@^4.7.5:
+  version "4.7.5"
+  resolved "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.7.5.tgz"
+  integrity sha512-sJ/tqHOCe7Z50JCBCXrsY3I2k03iOiUe+tj1OmKeD2lXPiGH/RUCdTZFoqVyN7l1MnpIzPrGtLcijffmeouNlQ==
   dependencies:
     "@socket.io/component-emitter" "~3.1.0"
     debug "~4.3.2"

@@ -11,7 +11,7 @@
   "devDependencies": {
     "@nuxt/content": "^2.12.1",
     "@nuxt/devtools": "1.2.0",
-    "@nuxthq/studio": "1.0.13",
+    "@nuxthq/studio": "1.0.15",
     "@nuxtjs/fontaine": "^0.4.1",
     "@nuxtjs/google-fonts": "3.2.0",
     "nuxt": "3.11.2",
@@ -21,7 +21,7 @@
     "yarn-upgrade-all": "^0.7.2"
   },
   "dependencies": {
-    "@iconify-json/lucide": "1.1.184",
+    "@iconify-json/lucide": "1.1.186",
     "@nuxt/image": "1.6.0",
     "@nuxt/ui": "2.15.2",
     "rss-parser": "^3.13.0",
