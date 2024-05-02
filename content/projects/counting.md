@@ -1,6 +1,7 @@
 ---
 title: 'Counting'
 description: 'The most customizable counting bot. Compete with other Discord servers to get the highest count.'
+thumbnail: '/projects/counting.png'
 links: [
     {
         "name": "Visit",

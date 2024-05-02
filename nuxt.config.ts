@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/content",
     "@nuxthq/studio",
-    "@vueuse/nuxt"
+    "@vueuse/nuxt",
+    "@nuxtjs/seo"
   ],
   ui: {
     icons: ["heroicons", "lucide"],
@@ -36,4 +37,7 @@ export default defineNuxtConfig({
       Inter: [400, 500, 600, 700, 800, 900],
     },
   },
+  content: {
+    documentDriven: true
+  }
 });
