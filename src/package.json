@@ -25,7 +25,7 @@
     "@iconify-json/lucide": "1.1.186",
     "@nuxt/image": "1.6.0",
     "@nuxt/ui": "2.15.2",
-    "nuxt-umami": "^2.6.1",
+    "nuxt-umami": "^2.6.2",
     "rss-parser": "^3.13.0",
     "vue-use-fixed-header": "^2.0.3"
   }

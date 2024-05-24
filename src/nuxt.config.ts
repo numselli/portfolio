@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  extends: ['nuxt-umami'],
   devtools: { enabled: true },
   modules: [
     "@nuxt/ui",
@@ -39,5 +40,16 @@ export default defineNuxtConfig({
   },
   content: {
     documentDriven: true
-  }
+  },
+  appConfig: {
+		umami: {
+			id: '8d5dabea-9c89-4d2f-9ce1-84c7b18758c7',
+			host: 'https://insights.numselli.xyz/',
+			version: 2,
+			ignoreDnt: true,
+			useDirective: true,
+			customEndpoint: '/',
+			ignoreLocalhost: true
+		}
+	}
 });
