@@ -58,5 +58,10 @@ const items = [
     path: "/bookmarks",
     icon: "solar:bookmark-linear",
   },
+  {
+    name: "Photos",
+    path: "https://photos.numselli.xyz",
+    icon: "simple-line-icons:picture",
+  }
 ];
 </script>
