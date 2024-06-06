@@ -27,22 +27,27 @@ const links = [
   {
     name: "GitHub",
     url: "https://github.com/numselli",
-    icon: "mdi:github",
+    icon: "mdi:github"
   },
   // {
   //   name: "Linkedin",
   //   url: "https://www.linkedin.com/",
-  //   icon: "mdi:linkedin",
+  //   icon: "mdi:linkedin"
   // },
   // {
   //   name: "Telegram",
   //   url: "https://t.me/",
-  //   icon: "mdi:telegram",
+  //   icon: "mdi:telegram"
   // },
   {
     name: "Discord",
     url: "https://discord.gg/5kNZFH5",
-    icon: "mdi:discord",
+    icon: "mdi:discord"
   },
+  {
+    name: "Reddit",
+    url: "https://www.reddit.com/user/numselli",
+    icon: "mdi:reddit"
+  }
 ];
 </script>
