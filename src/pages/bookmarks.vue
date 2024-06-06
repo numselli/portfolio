@@ -38,10 +38,7 @@ const description =
 // });
 
 // https://www.themindfulword.org/law-of-reverse-effect
-// https://inessential.com/2019/10/28/no_etas.html
-// https://alexthunder.livejournal.com/309815.html
 
-// https://free-for.dev/#/
 // https://bunny.net/
 // https://www.youtube.com/watch?app=desktop&v=rIENo7tAMxk
 
@@ -49,8 +46,8 @@ const description =
 // https://njal.la/domains/
 // https://js.wiki/
 
-// https://architecturenotes.co/
 // https://what3words.com/clip.apples.leap
+
 const categories = {
   "h":[
     {
@@ -71,14 +68,36 @@ const categories = {
     {
       id: 3,
       label: "take-a-screenshot",
-      url: "https://www.take-a-screenshot.org/",
+      url: "https://www.take-a-screenshot.org",
+    },
+    {
+      id: 3,
+      label: "No ETAs",
+      url: "https://inessential.com/2019/10/28/no_etas.html",
+    }
+  ],
+  "Dev Resources":[
+    {
+      id: 1,
+      label: "Free for Dev",
+      url: "https://free-for.dev",
+    },
+    {
+      id: 2,
+      label: "Architecture Notes",
+      url: "https://architecturenotes.co"
+    },
+    {
+      id: 3,
+      label: "Roadmap sh",
+      url: "https://roadmap.sh"
     }
   ],
   "Discord Resources":[
     {
       id: 1,
       label: "Discord Lookup",
-      url: "https://discordlookup.com/",
+      url: "https://discordlookup.com",
     }
   ]
 }
