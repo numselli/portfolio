@@ -31,15 +31,13 @@ export default defineNuxtConfig({
     highlight: {
       theme: "github-dark",
     },
+    documentDriven: true
   },
   googleFonts: {
     display: "swap",
     families: {
       Inter: [400, 500, 600, 700, 800, 900],
     },
-  },
-  content: {
-    documentDriven: true
   },
   appConfig: {
 		umami: {
