@@ -25,3 +25,11 @@
   transform: translateY(5px);
 }
 </style>
+
+<script setup>
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  }
+})
+</script>
