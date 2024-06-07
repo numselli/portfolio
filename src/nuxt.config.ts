@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxtjs/seo"
   ],
+  site: {
+    url: "https://numselli.xyz"
+  },
   ui: {
     icons: ["heroicons", "lucide"],
   },
