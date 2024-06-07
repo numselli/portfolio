@@ -31,8 +31,10 @@ jobs:
       - name: Build Vue
         run: |
           mkdir buildDir
-          mv src/Dockerfile buildDir
-          mv src/.output buildDir
+          mv docker-compose.yml buildDir/
+          mkdir buildDir/src
+          mv src/Dockerfile buildDir/src
+          mv src/.output buildDir/src
       - name: Build Vue
         run: |
           cd buildDir
