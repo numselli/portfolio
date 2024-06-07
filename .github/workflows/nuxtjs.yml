@@ -32,7 +32,7 @@ jobs:
         run: |
           mv src/Dockerfile src/.output
           mv src/.output .
-          rm src
+          rm -r src
           git config --global user.email "CI@example.com"
           git config --global user.name "CI"
           git init
