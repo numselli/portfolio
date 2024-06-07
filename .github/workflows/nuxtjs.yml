@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: cd src && npm install
       - name: Static HTML export with Nuxt
-        run: cd src && npm run deploy
+        run: cd src && npm run build
       - name: Build Vue
         run: |
           cd src/.output
@@ -36,4 +36,4 @@ jobs:
           git init
           git add -A
           git commit -m 'deploy'
-          git push -f https://${{ vars.username }}:${{ secrets.token }}@github.com/${{ vars.username }}/TriCityTrim.git master:builds
+          git push -f https://${{ vars.username }}:${{ secrets.token }}@github.com/${{ vars.username }}/portfolio.git master:builds
