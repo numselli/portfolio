@@ -30,9 +30,12 @@ jobs:
         run: cd src && npm run build
       - name: Build Vue
         run: |
-          mv src/Dockerfile src/.output
-          mv src/.output .
-          rm -r src
+          mkdir buildDir
+          mv src/Dockerfile buildDir
+          mv src/.output buildDir
+      - name: Build Vue
+        run: |
+          cd buildDir
           git config --global user.email "CI@example.com"
           git config --global user.name "CI"
           git init
