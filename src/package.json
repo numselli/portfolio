@@ -22,7 +22,7 @@
     "yarn-upgrade-all": "^0.7.2"
   },
   "dependencies": {
-    "@iconify-json/lucide": "1.1.188",
+    "@iconify-json/lucide": "1.1.190",
     "@nuxt/ui": "2.16.0",
     "@nuxt/image": "1.7.0",    
     "nuxt-umami": "^2.6.2",
