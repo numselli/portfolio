@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@iconify-json/lucide": "1.1.190",
-    "@nuxt/ui": "2.16.0",
+    "@nuxt/ui": "2.17.0",
     "@nuxt/image": "1.7.0",    
     "nuxt-umami": "^2.6.2",
     "rss-parser": "^3.13.0",
