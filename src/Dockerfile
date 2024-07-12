@@ -1,7 +1,7 @@
 FROM node:20.5.0-alpine3.17
 
 RUN mkdir /app
-COPY .output/ /app
+COPY out/ /app
 
 ENV NODE_ENV production
 
