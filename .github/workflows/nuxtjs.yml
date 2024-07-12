@@ -36,7 +36,7 @@ jobs:
           mkdir buildDir/src
           mv src/Dockerfile buildDir/src
           mv src/.output buildDir/src
-          mv buildDir/src/.output out
+          mv buildDir/src/.output buildDir/src/out
       - name: Commit changes
         run: |
           cd buildDir
