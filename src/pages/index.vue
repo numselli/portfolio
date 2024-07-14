@@ -10,3 +10,12 @@
     </main>
   </UContainer>
 </template>
+
+
+<script setup>
+useSeoMeta({
+  // icon: '/avatar.png',
+  // title: "Pts",
+  // description: "",
+});
+</script>

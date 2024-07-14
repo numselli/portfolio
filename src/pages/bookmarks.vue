@@ -33,12 +33,9 @@
 </template>
 
 <script setup>
-const description =
-  "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
-// useSeoMeta({
-//   title: "Bookmarks | numselli",
-//   description,
-// });
+useSeoMeta({
+  description: "A collection of useful links.",
+});
 
 // https://www.themindfulword.org/law-of-reverse-effect
 
@@ -52,7 +49,7 @@ const description =
 // https://what3words.com/clip.apples.leap
 
 const categories = {
-  "h":[
+  "Providing Chat Suport Resources":[
     {
       id: 1,
       label: "Dont Ask to Ask",
