@@ -32,7 +32,6 @@ jobs:
         run: |
           mkdir buildDir
           mv docker-compose.yml buildDir/
-          mv captain-definition buildDir/
           mkdir buildDir/src
           mv src/Dockerfile buildDir/src
           mv src/.output buildDir/src
