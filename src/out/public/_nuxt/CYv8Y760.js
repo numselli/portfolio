@@ -1,0 +1,1 @@
+import{k as o,c as t,e as s,a5 as a}from"./CDF2Wp72.js";const r={},c={class:"max-h-96 overflow-auto bg-gray-900 text-sm p-2"};function n(e,l){return t(),s("div",c,[a(e.$slots,"default")])}const d=o(r,[["render",n]]);export{d as default};
