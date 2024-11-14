@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-  extends: ['nuxt-umami'],
   devtools: { enabled: true },
   modules: [
     "@nuxt/ui",
@@ -10,7 +9,8 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxthq/studio",
     "@vueuse/nuxt",
-    "@nuxtjs/seo"
+    "@nuxtjs/seo",
+    'nuxt-umami'
   ],
 
   seo: {
@@ -52,7 +52,7 @@ export default defineNuxtConfig({
     },
   },
 
-  appConfig: {
+  // appConfig: {
     umami: {
       id: '8d5dabea-9c89-4d2f-9ce1-84c7b18758c7',
       host: 'https://insights.numselli.xyz/',
@@ -61,8 +61,8 @@ export default defineNuxtConfig({
       useDirective: true,
       customEndpoint: '/',
       ignoreLocalhost: true
-    }
-  },
+    },
+  // },
 
   compatibilityDate: "2024-07-12"
 });
