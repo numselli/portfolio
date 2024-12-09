@@ -19,6 +19,8 @@ useSeoMeta({
   description: "Most of the projects I have worked on.",
 });
 
+const description = ""
+
 const { data: projects } = await useAsyncData("projects-all", () =>
   queryContent("/projects").find()
 );
