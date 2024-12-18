@@ -18,7 +18,7 @@
     "yarn-upgrade-all": "^0.7.4"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.14",
+    "@iconify-json/lucide": "^1.2.16",
     "@nuxt/devtools": "^1.6.4",
     "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.19.2",
