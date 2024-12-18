@@ -27,7 +27,7 @@
     "nuxt": "^3.14.159",
     "nuxt-icon": "^1.0.0-beta.7",
     "nuxt-umami": "^3.0.2",
-    "prettier-plugin-tailwindcss": "^0.6.8",
+    "prettier-plugin-tailwindcss": "^0.6.9",
     "rss-parser": "^3.13.0",
     "vue-use-fixed-header": "^2.0.3"
   }
