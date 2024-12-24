@@ -26,7 +26,7 @@
     "@nuxthq/studio": "^2.2.1",
     "nuxt": "^3.14.1592",
     "nuxt-icon": "^1.0.0-beta.7",
-    "nuxt-umami": "^3.0.2",
+    "nuxt-umami": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "rss-parser": "^3.13.0",
     "vue-use-fixed-header": "^2.0.3"
