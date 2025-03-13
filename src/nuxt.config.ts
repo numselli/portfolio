@@ -2,14 +2,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxt/ui",
-    "nuxt-icon",
     "@nuxtjs/google-fonts",
     "@nuxtjs/fontaine",
     "@nuxt/image",
-    "@nuxt/content",
-    "@nuxthq/studio",
-    "@vueuse/nuxt",
     "@nuxtjs/seo",
+    "@nuxt/content",
+    "@vueuse/nuxt",
     'nuxt-umami'
   ],
 
@@ -23,7 +21,7 @@ export default defineNuxtConfig({
   },
 
   ui: {
-    icons: ["heroicons", "lucide"],
+    icons: ["heroicons", "lucide", "simple-line-icons", "mdi"],
   },
 
   app: {
