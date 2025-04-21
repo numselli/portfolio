@@ -11,6 +11,8 @@ export default defineNuxtConfig({
     'nuxt-umami'
   ],
 
+  css: ['~/assets/css/main.css'],
+
   seo: {
     "automaticDefaults": true,
   },
