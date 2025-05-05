@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
 
   ui: {
-    icons: ["heroicons", "lucide", "simple-line-icons", "mdi"],
+    icons: ["heroicons", "lucide", "simple-line-icons", "mdi", "solar"],
   },
 
   app: {
