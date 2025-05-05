@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/seo",
     "@nuxt/content",
-    "@vueuse/nuxt",
     'nuxt-umami'
   ],
 
