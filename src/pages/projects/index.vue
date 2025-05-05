@@ -21,7 +21,7 @@ useSeoMeta({
 
 const description = ""
 
-const { data: projects } = await useAsyncData("projects-all", () =>
-  queryContent("/projects").find()
-);
+const route = useRoute()
+
+const { data: projects } = await useAsyncData(route.path, () => queryCollection('projects').all())
 </script>

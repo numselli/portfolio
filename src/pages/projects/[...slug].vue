@@ -20,7 +20,7 @@
 
         <main class="">
             <!-- min-h-screen -->
-            <ContentDoc />
+            <ContentRenderer :value="project" />
         </main>
     </UContainer>
 </template>
@@ -32,5 +32,5 @@
     // });
 
     const route = useRoute()
-    const project = await queryContent(route.path).findOne()
+    const { data: project } = await useAsyncData(route.path, () => queryCollection('projects').path(route.path).first())
 </script>
