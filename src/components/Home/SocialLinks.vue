@@ -34,11 +34,11 @@ const links = [
   //   url: "https://www.linkedin.com/",
   //   icon: "mdi:linkedin"
   // },
-  // {
-  //   name: "Telegram",
-  //   url: "https://t.me/",
-  //   icon: "mdi:telegram"
-  // },
+  {
+    name: "Youtube",
+    url: "http://youtube.com/@numselli",
+    icon: "mdi:youtube"
+  },
   {
     name: "Discord",
     url: "https://discord.gg/5kNZFH5",
