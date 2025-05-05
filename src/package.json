@@ -22,10 +22,10 @@
     "@nuxt/image": "^1.10.0",
     "@nuxt/ui": "^3.1.1",
     "@nuxtjs/seo": "^3.0.3",
+    "fast-xml-parser": "^5.2.2",
     "nuxt": "^3.16.2",
     "nuxt-umami": "^3.2.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "rss-parser": "^3.13.0",
     "tailwindcss": "^4.1.5",
     "vue-use-fixed-header": "^2.0.3"
   }

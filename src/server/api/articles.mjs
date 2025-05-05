@@ -1,10 +1,20 @@
 import { defineEventHandler } from 'h3';
-import Parser from 'rss-parser';
+import { XMLParser } from "fast-xml-parser";
 
-let parser = new Parser();
+const parser = new XMLParser();
 
 export default defineEventHandler(async () => {
-    const feed = await parser.parseURL('https://blog.numselli.xyz/?action=feed');
+    const feedFetch = await fetch('https://blog.numselli.xyz/?action=feed')
+    if (feedFetch.status !== 200) return {error: true, code: feedFetch.status}
+    const xml = await feedFetch.text()
 
-    return feed.items.slice(0, 3)
+    const { feed } = parser.parse(xml);
+
+    return feed.entry.map(({title, published, id}) =>{
+        return {
+            title,
+            published, 
+            id
+        }
+    })
 })
