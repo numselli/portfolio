@@ -2,7 +2,7 @@
   <div class="px-4 py-8 flex items-center justify-center flex-col">
     <span
       ref="target"
-      class="flex tabular-nums text-slate-900 dark:text-white text-5xl font-extrabold mb-2 [counter-set:_num_var(--num)] before:content-[counter(num)] animate-counter"
+      class="flex tabular-nums text-slate-900 dark:text-white text-5xl font-extrabold mb-2 [counter-set:num_var(--num)] before:content-[counter(num)] animate-counter"
     >
       <span class="sr-only">{{ targetNumber }}</span
       >+

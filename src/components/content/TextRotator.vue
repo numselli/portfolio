@@ -5,7 +5,7 @@
     >
       We design and develop the best
       <span
-        class="inline-flex flex-col h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] overflow-hidden"
+        class="inline-flex flex-col h-[calc(var(--text-lg)*(var(--leading-tight)))] overflow-hidden"
       >
         <ul
           class="block text-left leading-tight [&_li]:block animate-text-slide"
