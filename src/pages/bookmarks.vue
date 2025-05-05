@@ -13,7 +13,6 @@
               class="flex items-center gap-3 hover:bg-gray-100 dark:hover:bg-white/10 p-2 rounded-lg -m-2 text-sm min-w-0"
             >
               <UAvatar
-                :src="getThumbnail(bookmark.url)"
                 :alt="bookmark.label"
                 :ui="{ rounded: 'rounded-md' }"
               />
@@ -39,9 +38,6 @@ useSeoMeta({
 
 // https://www.themindfulword.org/law-of-reverse-effect
 
-// https://bunny.net/
-// https://www.youtube.com/watch?app=desktop&v=rIENo7tAMxk
-
 // https://biomejs.dev/recipes/continuous-integration/
 // https://njal.la/domains/
 // https://js.wiki/
@@ -66,12 +62,12 @@ const categories = {
       url: "https://nohello.net",
     },
     {
-      id: 3,
+      id: 4,
       label: "take-a-screenshot",
       url: "https://www.take-a-screenshot.org",
     },
     {
-      id: 3,
+      id: 5,
       label: "No ETAs",
       url: "https://inessential.com/2019/10/28/no_etas.html",
     }
@@ -109,10 +105,5 @@ function getHost(url) {
     host = host.substring(4);
   }
   return host;
-}
-
-function getThumbnail(url) {
-  const host = getHost(url);
-  return `https://logo.clearbit.com/${host}`;
 }
 </script>
