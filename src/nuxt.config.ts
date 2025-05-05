@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/ui",
     "@nuxtjs/google-fonts",
-    "@nuxtjs/fontaine",
     "@nuxt/image",
     "@nuxtjs/seo",
     "@nuxt/content",

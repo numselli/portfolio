@@ -244,17 +244,12 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
-"@capsizecss/metrics@^2.1.1":
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/@capsizecss/metrics/-/metrics-2.2.0.tgz"
-  integrity sha512-DkFIser1KbGxWyG2hhQQeCit72TnOQDx5pr9bkA7+XlIy7qv+4lYtslH3bidVxm2qkY2guAgypSIPYuQQuk70A==
-
 "@capsizecss/metrics@^3.5.0":
   version "3.5.0"
   resolved "https://registry.npmjs.org/@capsizecss/metrics/-/metrics-3.5.0.tgz"
   integrity sha512-Ju2I/Qn3c1OaU8FgeW4Tc22D4C9NwyVfKzNmzst59bvxBjPoLYNZMqFYn+HvCtn4MpXwiaDtCE8fNuQLpdi9yA==
 
-"@capsizecss/unpack@^2.0.1", "@capsizecss/unpack@^2.4.0":
+"@capsizecss/unpack@^2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@capsizecss/unpack/-/unpack-2.4.0.tgz"
   integrity sha512-GrSU71meACqcmIUxPYOJvGKF0yryjN/L1aCuE9DViCTJI7bfkjgYDPD1zbNDcINJwSSP6UaBZY9GAbYDO7re0Q==
@@ -923,17 +918,6 @@
     pkg-types "^1.2.1"
     semver "^7.6.3"
 
-"@nuxtjs/fontaine@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.npmjs.org/@nuxtjs/fontaine/-/fontaine-0.5.0.tgz"
-  integrity sha512-68po45LJW1bMrlxPiI96L4lH/8Hom8LDKsUSmIZtgPrtI1HvFvg9Kcj2329DkWIH379hyffT2Qt7/1RgRPVV+A==
-  dependencies:
-    "@nuxt/kit" "^3.15.4"
-    fontaine "^0.5.0"
-    magic-string "^0.30.17"
-    pathe "^2.0.3"
-    ufo "^1.5.4"
-
 "@nuxtjs/google-fonts@3.2.0":
   version "3.2.0"
   resolved "https://registry.npmjs.org/@nuxtjs/google-fonts/-/google-fonts-3.2.0.tgz"
@@ -1044,6 +1028,11 @@
   resolved "https://registry.npmjs.org/@oxc-parser/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.56.5.tgz"
   integrity sha512-I2mpX35NWo83hay4wrnzFLk3VuGK1BBwHaqvEdqsCode8iG8slYJRJPICVbCEWlkR3rotlTQ+608JcRU0VqZ5Q==
 
+"@oxc-parser/binding-linux-x64-musl@0.56.5":
+  version "0.56.5"
+  resolved "https://registry.npmjs.org/@oxc-parser/binding-linux-x64-musl/-/binding-linux-x64-musl-0.56.5.tgz"
+  integrity sha512-xfzUHGYOh3PGWZdBuY5r1czvE8EGWPAmhTWHqkw3/uAfUVWN/qrrLjMojiaiWyUgl/9XIFg05m5CJH9dnngh5Q==
+
 "@oxc-parser/wasm@^0.60.0":
   version "0.60.0"
   resolved "https://registry.npmjs.org/@oxc-parser/wasm/-/wasm-0.60.0.tgz"
@@ -1065,6 +1054,11 @@
   version "2.5.1"
   resolved "https://registry.npmjs.org/@parcel/watcher-linux-x64-glibc/-/watcher-linux-x64-glibc-2.5.1.tgz"
   integrity sha512-GcESn8NZySmfwlTsIur+49yDqSny2IhPeZfXunQi48DMugKeZ7uy1FX83pO0X22sHntJ4Ub+9k34XQCX+oHt2A==
+
+"@parcel/watcher-linux-x64-musl@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@parcel/watcher-linux-x64-musl/-/watcher-linux-x64-musl-2.5.1.tgz"
+  integrity sha512-n0E2EQbatQ3bXhcH2D1XIAANAcTZkQICBPVaxMeaCVBtOpBZpWJuf7LwyWPSBDITb7In8mqQgJ7gH8CILCURXg==
 
 "@parcel/watcher-wasm@^2.4.1":
   version "2.5.1"
@@ -1134,6 +1128,11 @@
   version "2.6.2"
   resolved "https://registry.npmjs.org/@resvg/resvg-js-linux-x64-gnu/-/resvg-js-linux-x64-gnu-2.6.2.tgz"
   integrity sha512-IVUe+ckIerA7xMZ50duAZzwf1U7khQe2E0QpUxu5MBJNao5RqC0zwV/Zm965vw6D3gGFUl7j4m+oJjubBVoftw==
+
+"@resvg/resvg-js-linux-x64-musl@2.6.2":
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/@resvg/resvg-js-linux-x64-musl/-/resvg-js-linux-x64-musl-2.6.2.tgz"
+  integrity sha512-UOf83vqTzoYQO9SZ0fPl2ZIFtNIz/Rr/y+7X8XRX1ZnBYsQ/tTb+cj9TE+KHOdmlTFBxhYzVkP2lRByCzqi4jQ==
 
 "@resvg/resvg-js@^2.6.2":
   version "2.6.2"
@@ -1233,6 +1232,11 @@
   version "4.37.0"
   resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.37.0.tgz"
   integrity sha512-pKivGpgJM5g8dwj0ywBwe/HeVAUSuVVJhUTa/URXjxvoyTT/AxsLTAbkHkDHG7qQxLoW2s3apEIl26uUe08LVQ==
+
+"@rollup/rollup-linux-x64-musl@4.37.0":
+  version "4.37.0"
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.37.0.tgz"
+  integrity sha512-E2lPrLKE8sQbY/2bEkVTGDEk4/49UYRVWgj90MY8yPjpnGBQ+Xi1Qnr7b7UIWw1NOggdFQFOLZ8+5CzCiz143w==
 
 "@sec-ant/readable-stream@^0.4.1":
   version "0.4.1"
@@ -1370,6 +1374,11 @@
   version "4.1.5"
   resolved "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.1.5.tgz"
   integrity sha512-SO+F2YEIAHa1AITwc8oPwMOWhgorPzzcbhWEb+4oLi953h45FklDmM8dPSZ7hNHpIk9p/SCZKUYn35t5fjGtHA==
+
+"@tailwindcss/oxide-linux-x64-musl@4.1.5":
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.1.5.tgz"
+  integrity sha512-6UbBBplywkk/R+PqqioskUeXfKcBht3KU7juTi1UszJLx0KPXUo10v2Ok04iBJIaDPkIFkUOVboXms5Yxvaz+g==
 
 "@tailwindcss/oxide@4.1.5":
   version "4.1.5"
@@ -3249,19 +3258,6 @@ flat@^6.0.1:
   resolved "https://registry.npmjs.org/flat/-/flat-6.0.1.tgz"
   integrity sha512-/3FfIa8mbrg3xE7+wAhWeV+bd7L2Mof+xtZb5dRDKZ+wDvYJK4WDYeIOuOhre5Yv5aQObZrlbRmk3RTSiuQBtw==
 
-fontaine@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.npmjs.org/fontaine/-/fontaine-0.5.0.tgz"
-  integrity sha512-vPDSWKhVAfTx4hRKT777+N6Szh2pAosAuzLpbppZ6O3UdD/1m6OlHjNcC3vIbgkRTIcLjzySLHXzPeLO2rE8cA==
-  dependencies:
-    "@capsizecss/metrics" "^2.1.1"
-    "@capsizecss/unpack" "^2.0.1"
-    magic-regexp "^0.8.0"
-    magic-string "^0.30.8"
-    pathe "^1.1.2"
-    ufo "^1.4.0"
-    unplugin "^1.8.3"
-
 fontaine@^0.6.0:
   version "0.6.0"
   resolved "https://registry.npmjs.org/fontaine/-/fontaine-0.6.0.tgz"
@@ -4105,6 +4101,11 @@ lightningcss-linux-x64-gnu@1.29.2:
   resolved "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz"
   integrity sha512-0v6idDCPG6epLXtBH/RPkHvYx74CVziHo6TMYga8O2EiQApnUPZsbR9nFNrg2cgBzk1AYqEd95TlrsL7nYABQg==
 
+lightningcss-linux-x64-musl@1.29.2:
+  version "1.29.2"
+  resolved "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.29.2.tgz"
+  integrity sha512-rMpz2yawkgGT8RULc5S4WiZopVMOFWjiItBT7aSfDX4NQav6M44rhn5hjtkKzB+wMTRlLLqxkeYEtQ3dd9696w==
+
 lightningcss@^1.21.0, lightningcss@1.29.2:
   version "1.29.2"
   resolved "https://registry.npmjs.org/lightningcss/-/lightningcss-1.29.2.tgz"
@@ -4228,19 +4229,6 @@ magic-regexp@^0.10.0:
     type-level-regexp "~0.1.17"
     ufo "^1.5.4"
     unplugin "^2.0.0"
-
-magic-regexp@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.npmjs.org/magic-regexp/-/magic-regexp-0.8.0.tgz"
-  integrity sha512-lOSLWdE156csDYwCTIGiAymOLN7Epu/TU5e/oAnISZfU6qP+pgjkE+xbVjVn3yLPKN8n1G2yIAYTAM5KRk6/ow==
-  dependencies:
-    estree-walker "^3.0.3"
-    magic-string "^0.30.8"
-    mlly "^1.6.1"
-    regexp-tree "^0.1.27"
-    type-level-regexp "~0.1.17"
-    ufo "^1.4.0"
-    unplugin "^1.8.3"
 
 magic-string-ast@^0.7.0:
   version "0.7.1"
@@ -6910,7 +6898,7 @@ typescript@*, "typescript@^4.9.4 || ^5.0.2", typescript@^5.6.3, typescript@^5.8.
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz"
   integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
 
-ufo@^1.1.2, ufo@^1.3.2, ufo@^1.4.0, ufo@^1.5.4, ufo@^1.6.1:
+ufo@^1.1.2, ufo@^1.3.2, ufo@^1.5.4, ufo@^1.6.1:
   version "1.6.1"
   resolved "https://registry.npmjs.org/ufo/-/ufo-1.6.1.tgz"
   integrity sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==
@@ -7164,14 +7152,6 @@ unplugin-vue-router@^0.12.0:
     yaml "^2.7.0"
 
 unplugin@^1.10.0:
-  version "1.16.1"
-  resolved "https://registry.npmjs.org/unplugin/-/unplugin-1.16.1.tgz"
-  integrity sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==
-  dependencies:
-    acorn "^8.14.0"
-    webpack-virtual-modules "^0.6.2"
-
-unplugin@^1.8.3:
   version "1.16.1"
   resolved "https://registry.npmjs.org/unplugin/-/unplugin-1.16.1.tgz"
   integrity sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==
@@ -7518,10 +7498,18 @@ ws@~8.17.1:
   resolved "https://registry.npmjs.org/ws/-/ws-8.17.1.tgz"
   integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
-xml2js@^0.5.0, xml2js@^0.6.2:
+xml2js@^0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz"
   integrity sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~11.0.0"
+
+xml2js@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/xml2js/-/xml2js-0.6.2.tgz"
+  integrity sha512-T4rieHaC1EXcES0Kxxj4JWgaUQHDk+qwHcYOCFHfiwKz7tOVPLq7Hjq9dM1WCMhylqMEfP7hMcOIChvotiZegA==
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "~11.0.0"

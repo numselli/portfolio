@@ -13,7 +13,6 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/solar": "^1.2.2",
     "@nuxt/content": "^3.5.1",
-    "@nuxtjs/fontaine": "^0.5.0",
     "@nuxtjs/google-fonts": "3.2.0",
     "prettier": "3.5.3"
   },
