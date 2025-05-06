@@ -11,11 +11,12 @@
   </UContainer>
 </template>
 
-
 <script setup>
+const siteDescription = 'My personal homepage'
 useSeoMeta({
-  // icon: '/avatar.png',
-  // title: "Pts",
-  // description: "",
+  title: "Home",
+  description: siteDescription,
+  "twitter:description": siteDescription,
+  "twitter:title": siteDescription
 });
 </script>

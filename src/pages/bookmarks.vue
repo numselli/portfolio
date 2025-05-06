@@ -32,8 +32,11 @@
 </template>
 
 <script setup>
+const siteDescription = 'A collection of useful links'
 useSeoMeta({
-  description: "A collection of useful links.",
+  description: siteDescription,
+  "twitter:description": siteDescription,
+  "twitter:title": siteDescription
 });
 
 // https://www.themindfulword.org/law-of-reverse-effect

@@ -14,14 +14,16 @@
 </template>
 
 <script setup>
+const siteDescription = 'A collection of the projects I have worked on'
 useSeoMeta({
-  title: "Projects",
-  description: "Most of the projects I have worked on.",
+  description: siteDescription,
+  "twitter:description": siteDescription,
+  "twitter:title": siteDescription
 });
+
 
 const description = ""
 
 const route = useRoute()
-
 const { data: projects } = await useAsyncData(route.path, () => queryCollection('projects').all())
 </script>
