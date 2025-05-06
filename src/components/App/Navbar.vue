@@ -57,7 +57,7 @@ const items = [
   {
     name: "Photos",
     path: "https://photos.numselli.xyz/share/mPSrzhan_esgwrWGdbFjZTaYaRpxpW1S0tQXaXB1RZL4WShoB21gkfvPXG2ETBGxNsY",
-    icon: "simple-line-icons:picture",
+    icon: "solar:gallery-linear",
   }
 ];
 </script>

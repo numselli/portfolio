@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <UDivider/>
+        <USeparator/>
 
         <main class="">
             <!-- min-h-screen -->

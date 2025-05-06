@@ -36,7 +36,7 @@ const links = [
   // },
   {
     name: "Youtube",
-    url: "http://youtube.com/@numselli",
+    url: "https://youtube.com/@numselli",
     icon: "mdi:youtube"
   },
   {
