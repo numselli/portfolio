@@ -22,6 +22,9 @@ export default defineNuxtConfig({
 
   ui: {
     icons: ["heroicons", "lucide", "simple-line-icons", "mdi", "solar"],
+    colorMode: {
+      preference: 'system'
+    }
   },
 
   app: {
