@@ -21,8 +21,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-const { data: projects } = await useAsyncData("projects-home", () =>
-  queryContent("/projects").limit(3).find()
-);
+<script setup>
+const route = useRoute()
+const { data: projects } = await useAsyncData(route.path, () => queryCollection('projects').limit(3).all())
 </script>
