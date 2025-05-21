@@ -1,5 +1,5 @@
 # FROM node:20.5.0-alpine3.17
-FROM node:22.14.0-alpine3.21
+FROM node:22.15.1-alpine3.21
 
 
 RUN mkdir /app
