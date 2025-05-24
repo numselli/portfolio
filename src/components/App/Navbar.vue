@@ -1,6 +1,6 @@
 <template>
   <div ref="headerRef" :style="styles" class="fixed top-0 w-full z-50">
-    <nav class="mx-auto px-4 sm:px-4 lg:px-7 max-w-xs">
+    <nav class="mx-auto px-4 sm:px-4 lg:px-4 max-w-xs">
       <ul
         class="flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5"
       >
@@ -58,6 +58,11 @@ const items = [
     name: "Photos",
     path: "https://photos.numselli.xyz/share/mPSrzhan_esgwrWGdbFjZTaYaRpxpW1S0tQXaXB1RZL4WShoB21gkfvPXG2ETBGxNsY",
     icon: "solar:gallery-linear",
+  },
+    {
+    name: "Clock",
+    path: "/clock",
+    icon: "solar:clock-circle-linear",
   }
 ];
 </script>
