@@ -22,7 +22,7 @@
     "@nuxt/ui": "^3.1.2",
     "@nuxtjs/seo": "^3.0.3",
     "fast-xml-parser": "^5.2.3",
-    "nuxt": "^3.17.3",
+    "nuxt": "^3.17.4",
     "nuxt-umami": "^3.2.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.1.7",
