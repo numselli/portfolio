@@ -1,28 +1,14 @@
 <template>
-    <UContainer>
-        <h1 class="font-bold">{{ project.title }}</h1>
-        <div class="grid grid-cols-2 content-between	">
-            <UAvatar :src="project.thumbnail" :ui="{ rounded: 'rounded z-10 relative' }" size="md" :alt="project.title"/>
-            <div class="">
+    <div class="max-w-3xl mx-auto min-h-screen my-12">
+        <div v-if="project">
+            <h1 class="text-2xl font-semibold mb-6">{{ project.title }}</h1>
+            <ContentRenderer v-if="project" :value="project" />
 
-                <div class="flex">
-                    <div v-for="link in project.links">
-                        <NuxtLink :to="link.url" target="_blank"
-                            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                            <Icon aria-hidden="true" :name="link.icon" class="w-5 h-5 z-10" />
-                        </NuxtLink>
-                    </div>
-                </div>
+            <div class="mt-8">
+                <nuxt-link to="/projects" class="hover:underline">Back</nuxt-link>
             </div>
         </div>
-
-        <USeparator/>
-
-        <main class="">
-            <!-- min-h-screen -->
-            <ContentRenderer :value="project" />
-        </main>
-    </UContainer>
+    </div>
 </template>
 
 <script setup>
