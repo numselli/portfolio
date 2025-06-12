@@ -12,11 +12,5 @@
       I'm experienced with technologies such as Node.js and APIs for databases such as PostgreSQL.
       When I am not at the computer I am out taking phtotos photography, mountain biking, hiking, or rockcliming.
     </p>
-    <!-- <p class="text-gray-900 dark:text-gray-400">
-      By day, I'm a Fullstack Developer at
-      <a href="https://headshotpro.com" target="_blank" class="underline">Headshotpro</a>, and
-      by night (and weekends), I'm busy tinkering with some random tool or app
-      that I am building.
-    </p> -->
   </div>
 </template>
