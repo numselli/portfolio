@@ -16,11 +16,11 @@
     "prettier": "3.6.2"
   },
   "dependencies": {
-    "@nuxt/content": "^3.7.0",
-    "@nuxt/devtools": "^2.6.3",
+    "@nuxt/content": "^3.7.1",
+    "@nuxt/devtools": "^2.6.5",
     "@nuxt/image": "^1.11.0",
-    "@nuxt/ui": "^3.3.3",
-    "@nuxtjs/seo": "^3.1.0",
+    "@nuxt/ui": "^3.3.4",
+    "@nuxtjs/seo": "^3.2.2",
     "better-sqlite3": "^12.2.0",
     "fast-xml-parser": "^5.2.5",
     "nuxt": "^4.1.2",
