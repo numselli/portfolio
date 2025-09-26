@@ -15,10 +15,16 @@
 const route = useRoute()
 const { data: project } = await useAsyncData(route.path, () => queryCollection('projects').path(route.path).first())
 
-const siteDescription = project.value.description
-useSeoMeta({
-  description: siteDescription,
-  "twitter:description": siteDescription,
-  "twitter:title": siteDescription
-});
+
+if (project.value?.ogImage) defineOgImage(project.value?.ogImage) // <-- Nuxt OG Image
+// Ensure the schema.org is rendered
+useHead(project.value.head || {}) // <-- Nuxt Schema.org
+useSeoMeta(project.value.seo || {}) // <-- Nuxt Robots
+
+// const siteDescription = project.value.description
+// useSeoMeta({
+//   description: siteDescription,
+//   "twitter:description": siteDescription,
+//   "twitter:title": siteDescription
+// });
 </script>

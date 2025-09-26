@@ -1,31 +1,20 @@
 <template>
-  <NuxtLink
-    class="flex items-end gap-4 group p-2 -m-2 rounded-lg"
-    :to="project.path"
-  >
-    <div class="max-w-sm">
-      <h3 class="text-sm font-medium group-hover:text-primary-600">
-        {{ project.title }}
-      </h3>
-      <p class="text-gray-400 text-sm">{{ project.description }}</p>
+  <UContainer>
+    <div class="space-y-4">
+      <UBlogPosts>
+        <UBlogPost v-for="(post, index) in projects" :key="index" v-bind="post" :to="post.path" :image="post.meta.thumbnail"/>
+      </UBlogPosts>
     </div>
-    <div
-      class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
-    ></div>
-    <UAvatar
-      :src="project.thumbnail"
-      :ui="{ rounded: 'rounded z-10 relative' }"
-      size="md"
-      :alt="project.title"
-    />
-  </NuxtLink>
+  </UContainer>
 </template>
 
 <script setup>
-defineProps({
-  project: {
-    type: Object,
-    required: true,
-  },
-});
+const { data: projects } = await useAsyncData("/projects", () => queryCollection('projects').all())
+
+// {
+//     title: 'Nuxt Icon v1',
+//     description: 'Discover Nuxt Icon v1!',
+//     image: 'https://nuxt.com/assets/blog/nuxt-icon/cover.png',
+//     date: '2024-11-25'
+//   },
 </script>

@@ -40,13 +40,6 @@ export default defineNuxtConfig({
     },
   },
 
-  content: {
-    highlight: {
-      theme: "github-dark",
-    },
-    documentDriven: true
-  },
-
   googleFonts: {
     display: "swap",
     families: {
