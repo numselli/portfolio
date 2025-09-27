@@ -46,7 +46,7 @@ const items = [
   },
   {
     name: "Articles",
-    path: "https://blog.numselli.xyz",
+    path: "/blogs",
     icon: "solar:document-add-outline",
   },
   {
