@@ -7,7 +7,7 @@ RUN mkdir /app
 WORKDIR /app
 COPY out/ /app
 
-RUN apk add g++ make py3-pip
+RUN apk add --no-cache python3 py3-pip make g++
 
 ENV NODE_ENV production
 
