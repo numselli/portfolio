@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     'nuxt-umami'
   ],
 
+  content: {
+    experimental: { sqliteConnector: 'native' },
+  },
   css: ['~/assets/css/main.css'],
 
   seo: {
