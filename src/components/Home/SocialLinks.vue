@@ -23,31 +23,6 @@
 </template>
 
 <script lang="ts" setup>
-const links = [
-  {
-    name: "GitHub",
-    url: "https://github.com/numselli",
-    icon: "mdi:github"
-  },
-  // {
-  //   name: "Linkedin",
-  //   url: "https://www.linkedin.com/",
-  //   icon: "mdi:linkedin"
-  // },
-  {
-    name: "Youtube",
-    url: "https://youtube.com/@numselli",
-    icon: "mdi:youtube"
-  },
-  {
-    name: "Discord",
-    url: "https://discord.gg/5kNZFH5",
-    icon: "mdi:discord"
-  },
-  {
-    name: "Reddit",
-    url: "https://www.reddit.com/user/numselli",
-    icon: "mdi:reddit"
-  }
-];
+const {public: conf} = useRuntimeConfig()
+const links = conf.socialLinks
 </script>
