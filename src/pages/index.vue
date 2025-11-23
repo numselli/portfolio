@@ -5,6 +5,7 @@
         <HomeIntro />
         <HomeSocialLinks />
         <HomeFeaturedProjects />
+        <HomeFeaturedVideos />
         <HomeFeaturedArticles />
       </div>
     </main>
