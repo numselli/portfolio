@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-6">
+    <h2 class="uppercase text-xs font-semibold mb-6">
       FEATURED PROEJCTS
     </h2>
     <div class="space-y-4">
@@ -11,7 +11,6 @@
         label="All Projects &rarr;"
         to="/projects"
         variant="link"
-        color="gray"
       />
     </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-6">
+    <h2 class="uppercase text-xs font-semibold mb-6">
       RECENT VIDEOS
     </h2>
 
@@ -14,7 +14,6 @@
         to="https://youtube.com/@numselli/videos"
         target="_blank"
         variant="link"
-        color="gray"
       />
     </div>
   </div>

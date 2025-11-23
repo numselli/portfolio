@@ -1,6 +1,5 @@
 <template>
   <UContainer>
-
     <main class="min-h-screen">
       <AppHeader class="mb-8" title="Bookmarks" :description="description" />
       <ul class="space-y-2">
@@ -10,17 +9,17 @@
             <a
               :href="bookmark.url"
               target="_blank"
-              class="flex items-center gap-3 hover:bg-gray-100 dark:hover:bg-white/10 p-2 rounded-lg -m-2 text-sm min-w-0"
+              class="flex items-center gap-3 p-2 rounded-lg -m-2 text-sm min-w-0"
             >
               <UAvatar
                 :alt="bookmark.label"
                 :ui="{ rounded: 'rounded-md' }"
               />
-              <p class="truncate text-gray-700 dark:text-gray-200">
+              <p class="truncate">
                 {{ bookmark.label }}
               </p>
               <span class="flex-1"></span>
-              <span class="text-xs font-medium text-gray-400 dark:text-gray-600">
+              <span class="text-xs font-medium ">
                 {{ getHost(bookmark.url) }}
               </span>
             </a>
