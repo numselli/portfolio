@@ -1,0 +1,1 @@
+import{i as e,r as o,f as i}from"./U99W0vLI.js";function u(r){const t=e({dir:o("ltr")});return i(()=>r?.value||t.dir?.value||"ltr")}export{u};

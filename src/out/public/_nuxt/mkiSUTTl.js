@@ -1,0 +1,1 @@
+import{c as i,o as s,a as e,t as r}from"./U99W0vLI.js";const a={class:"text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100"},c={class:"mt-6 text-base"},p={__name:"AppHeader",props:{title:{type:String,required:!0},description:{type:String,required:!0}},setup(t){return(n,o)=>(s(),i("div",null,[e("h1",a,r(t.title),1),e("p",c,r(t.description),1)]))}};export{p as _};
