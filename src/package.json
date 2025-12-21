@@ -13,20 +13,20 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/solar": "^1.2.5",
     "@nuxtjs/google-fonts": "3.2.0",
-    "prettier": "3.7.3"
+    "prettier": "3.7.4"
   },
   "dependencies": {
-    "@nuxt/content": "^3.8.2",
+    "@nuxt/content": "^3.9.0",
     "@nuxt/devtools": "^3.1.1",
     "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "^4.2.1",
-    "@nuxtjs/seo": "^3.2.2",
+    "@nuxt/ui": "^4.3.0",
+    "@nuxtjs/seo": "^3.3.0",
     "better-sqlite3": "^12.5.0",
-    "fast-xml-parser": "^5.3.2",
-    "nuxt": "^4.2.1",
+    "fast-xml-parser": "^5.3.3",
+    "nuxt": "^4.2.2",
     "nuxt-umami": "^3.2.1",
-    "prettier-plugin-tailwindcss": "^0.7.1",
-    "tailwindcss": "^4.1.17",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.1.18",
     "vue-use-fixed-header": "^2.0.3"
   }
 }
