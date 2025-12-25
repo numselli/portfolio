@@ -23,6 +23,21 @@ export default defineNuxtConfig({
     trailingSlash: true
   },
 
+  sitemap: {
+    sitemaps: {
+      albums:{
+        sitemapName: "albums",
+        sources:[
+          `https://numselli.xyz/api/sitemap/albums`
+        ]
+      },
+      default:{
+        sitemapName: "default",
+        "includeAppSources": true
+      }
+    }
+  },
+
   ui: {
     icons: ["mdi", "solar"],
     colorMode: {
@@ -35,23 +50,25 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: {
         lang: "en",
-        class: "h-full",
+        class: "h-full"
       },
       bodyAttrs: {
-        class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
-      },
-    },
+        class: "antialiased bg-gray-50 dark:bg-black min-h-screen"
+      }
+    }
   },
 
   googleFonts: {
     display: "swap",
     families: {
-      Inter: [400, 500, 600, 700, 800, 900],
-    },
+      Inter: [400, 500, 600, 700, 800, 900]
+    }
   },
 
   runtimeConfig:{
     public: {
+      immichDomain: "https://photos.numselli.xyz/api",
+      immichKey: "CdsDCT51RpHNUMYx6d1iigjUzWxsLX2yjSkPQXS3f1w",
       socialLinks: [
         {
           name: "GitHub",
@@ -72,7 +89,7 @@ export default defineNuxtConfig({
           name: "Discord",
           icon: "mdi:discord",
           url: "https://discord.gg/5kNZFH5"
-        },
+        }
       ]
     }
   },

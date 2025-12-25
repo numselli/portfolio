@@ -16,6 +16,7 @@
     "prettier": "3.7.3"
   },
   "dependencies": {
+    "@immich/sdk": "^2.4.1",
     "@nuxt/content": "^3.8.2",
     "@nuxt/devtools": "^3.1.1",
     "@nuxt/image": "^2.0.0",

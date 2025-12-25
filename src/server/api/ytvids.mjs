@@ -31,7 +31,7 @@ const rssParser = async(feedUrl) => {
 let rssFeed = await rssParser(`https://www.youtube.com/feeds/videos.xml?channel_id=UCgXvOi8pKvezUO3bb4CqeiQ`);
 let lastFetchDate = new Date().getTime()
 
-export default defineEventHandler(async event => {
+export default defineEventHandler(async () => {
     const currTime = new Date().getTime()
     if ((lastFetchDate-currTime)>=86400000) {
         const feed = await rssParser(`https://www.youtube.com/feeds/videos.xml?channel_id=UCgXvOi8pKvezUO3bb4CqeiQ`);
