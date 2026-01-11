@@ -22,7 +22,7 @@
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.3.0",
     "@nuxtjs/seo": "^3.3.0",
-    "better-sqlite3": "^12.5.0",
+    "better-sqlite3": "^12.6.0",
     "fast-xml-parser": "^5.3.3",
     "nuxt": "^4.2.2",
     "nuxt-umami": "^3.2.1",
