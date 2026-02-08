@@ -1,6 +1,6 @@
 <template>
   <div ref="headerRef" :style="styles" class="fixed top-0 w-full z-50">
-    <nav class="mx-auto px-4 sm:px-4 lg:px-4 max-w-xs">
+    <nav class="mx-auto px-4 sm:px-4 lg:px-4 max-w-67">
       <ul
         class="flex items-center my-4 px-3 text-sm font-medium text-gray-800 rounded-full shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5"
       >
@@ -42,27 +42,22 @@ const items = [
   {
     name: "Projects",
     path: "/projects/",
-    icon: "solar:folder-with-files-outline",
+    icon: "solar:folder-with-files-outline"
   },
   {
     name: "Articles",
     path: "/blogs/",
-    icon: "solar:document-add-outline",
-  },
-  {
-    name: "Bookmarks",
-    path: "/bookmarks/",
-    icon: "solar:bookmark-linear",
+    icon: "solar:document-add-outline"
   },
   {
     name: "Photos",
     path: "/albums/",
-    icon: "solar:gallery-linear",
+    icon: "solar:gallery-linear"
   },
     {
     name: "Clock",
     path: "/clock/",
-    icon: "solar:clock-circle-linear",
+    icon: "solar:clock-circle-linear"
   }
 ];
 </script>
