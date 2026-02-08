@@ -12,8 +12,7 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/solar": "^1.2.5",
-    "@nuxtjs/google-fonts": "3.2.0",
-    "prettier": "3.8.1"
+    "@nuxtjs/google-fonts": "3.2.0"
   },
   "dependencies": {
     "@immich/sdk": "^2.5.5",
@@ -26,7 +25,6 @@
     "fast-xml-parser": "^5.3.4",
     "nuxt": "^4.3.1",
     "nuxt-umami": "^3.2.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.18",
     "vue-use-fixed-header": "^2.0.3"
   }
