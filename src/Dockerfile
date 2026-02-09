@@ -4,7 +4,6 @@ WORKDIR /preApp
 COPY . /preApp
 
 RUN npm install
-RUN rm -rf node_modules/.vite
 RUN npm run build
 
 

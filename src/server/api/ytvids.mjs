@@ -28,22 +28,22 @@ const rssParser = async(feedUrl) => {
     })
 }
 
-const loadFeed = async () => {
-    const feed = await rssParser(`https://www.youtube.com/feeds/videos.xml?channel_id=UCgXvOi8pKvezUO3bb4CqeiQ`);
-    return feed.slice(0, 3)
-}
+// const loadFeed = async () => {
+//     const feed = await rssParser(`https://www.youtube.com/feeds/videos.xml?channel_id=UCgXvOi8pKvezUO3bb4CqeiQ`);
+//     return feed.slice(0, 3)
+// }
 
-let rssFeed = await loadFeed();
-let lastFetchDate = new Date().getTime()
-
+// let rssFeed = await loadFeed();
+// let lastFetchDate = new Date().getTime()
+let rssFeed = []
 export default defineEventHandler(async () => {
-    const currTime = new Date().getTime()
-    if ((lastFetchDate-currTime)>=86400000) {
-        const feed = await loadFeed();
-        rssFeed = feed
-        lastFetchDate = currTime
-        return feed
-    }
+    // const currTime = new Date().getTime()
+    // if ((lastFetchDate-currTime)>=86400000) {
+    //     const feed = await loadFeed();
+    //     rssFeed = feed
+    //     lastFetchDate = currTime
+    //     return feed
+    // }
 
     return rssFeed
 });

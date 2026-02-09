@@ -100,7 +100,7 @@ export default defineNuxtConfig({
       host: 'https://insights.numselli.xyz/',
       version: 2,
       ignoreDnt: true,
-      useDirective: true,
+      useDirective: false,
       customEndpoint: '/',
       ignoreLocalhost: true
     },

@@ -1,11 +1,9 @@
-import { getAssetThumbnailPath, getAlbumInfo, init } from "@immich/sdk";
+import { getAssetThumbnailPath, getAlbumInfo } from "@immich/sdk";
 import { defineEventHandler, getRouterParams } from "h3";
-import { useRuntimeConfig } from '#imports';
-
-const {public: publicConfig} = useRuntimeConfig()
-init({ baseUrl: publicConfig.immichDomain, apiKey: publicConfig.immichKey });
+import { getImmichClient } from '~/server/utils/immich'
 
 export default defineEventHandler(async (event) => {
+    const conf = getImmichClient()
     const path = getRouterParams(event);
     if (!path.album) return;
 
@@ -18,8 +16,8 @@ export default defineEventHandler(async (event) => {
             createdAt: a.createdAt,
             type: a.type,
             originalFileName: a.originalFileName,
-            thumbnail: `${publicConfig.immichDomain}${getAssetThumbnailPath(a.id)}?c=${a.checksum}&apiKey=${publicConfig.immichKey}`,
-            preview: `${publicConfig.immichDomain}${getAssetThumbnailPath(a.id)}?size=preview&c=${a.checksum}&apiKey=${publicConfig.immichKey}`,
+            thumbnail: `${conf.immichDomain}${getAssetThumbnailPath(a.id)}?c=${a.checksum}&apiKey=${conf.immichKey}`,
+            preview: `${conf.immichDomain}${getAssetThumbnailPath(a.id)}?size=preview&c=${a.checksum}&apiKey=${conf.immichKey}`,
             fileCreatedAt: a.fileCreatedAt,
             fileModifiedAt: a.fileModifiedAt,
             updatedAt: a.updatedAt,
