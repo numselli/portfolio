@@ -2,6 +2,9 @@
   <div ref="headerRef" :style="styles">
     <UHeader title="">
       <UNavigationMenu :items="items" />
+      <template #body>
+        <UNavigationMenu :items="items" orientation="vertical" class="-mx-2.5" />
+      </template>
     </UHeader>
   </div>
 </template>
