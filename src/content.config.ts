@@ -1,18 +1,17 @@
 import { defineContentConfig, defineCollection, z } from '@nuxt/content'
-import { asSeoCollection } from '@nuxtjs/seo/content'
 
 export default defineContentConfig({
   collections: {
-    projects: defineCollection(asSeoCollection({
+    projects: defineCollection({
       type: 'page',
       source: 'projects/*.md'
-    })),
-    blogs: defineCollection(asSeoCollection({
+    }),
+    blogs: defineCollection({
       type: 'page',
       source: 'blogs/*.md',
       schema: z.object({
         date: z.string()
       })
-    }))
+    })
   }
 })
