@@ -73,6 +73,9 @@
 </template>
 
 <script setup>
+import { useWebNotification } from '@vueuse/core'
+const {isSupported, show, permissionGranted} = useWebNotification()
+
 const tabItems = [{ label: 'Display' }, { label: 'Alarms' }]
 const colourModeItems = [{ label: 'System', value: 'system' }, { label: 'Light', value: 'light' }, { label: 'Dark', value: 'dark' }]
 const repeatItems = [{ label: 'Once', value: 'once' }, { label: 'Daily', value: 'daily' }, { label: 'Weekly', value: 'weekly' }]
@@ -162,6 +165,14 @@ function toggleDay(day) {
   i === -1 ? newAlarm.value.days.push(day) : newAlarm.value.days.splice(i, 1)
 }
 function alarmAlert(alarm){
+  if (isSupported && permissionGranted) show({
+    title: `Alarm: ${alarm.label}`,
+    dir: 'auto',
+    lang: 'en',
+    renotify: true,
+    tag: 'alarm'
+  })
+
   const cMode = useColorMode()
   const origCmode = cMode.value
   alerting.value = {label: alarm.label, value: true}
