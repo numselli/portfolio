@@ -99,6 +99,11 @@ export default defineNuxtConfig({
           name: "Discord",
           icon: "mdi:discord",
           url: "https://discord.gg/5kNZFH5"
+        },
+        {
+          name: "RSS",
+          icon: "mdi:rss",
+          url: 'https://numselli.xyz/rss'
         }
       ]
     }

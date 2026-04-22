@@ -1,7 +1,7 @@
 ---
 title: 'Gen 2 Prius (2003-2009) brake light modification and fix'
 date: 2024-05-13
-description: 'A guide on adding a improving the brake lights on a 2004-2009 prius..'
+description: 'A guide on adding a improving the brake lights on a 2004-2009 prius.'
 ---
 
 
