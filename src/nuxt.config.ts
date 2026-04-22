@@ -49,7 +49,7 @@ export default defineNuxtConfig({
   },
 
   ui: {
-    icons: ["mdi", "solar"],
+    icons: ["mdi"],
     colorMode: {
       preference: 'system'
     }

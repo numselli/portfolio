@@ -10,7 +10,7 @@
     }"
     title="Settings"
   >
-    <UButton icon="solar:settings-linear" size="lg" color="neutral" variant="subtle" />
+    <UButton icon="mdi:cog" size="lg" color="neutral" variant="subtle" />
 
     <template #body>
       <div class="grid grid-flow-row grid-cols-2 gap-4">

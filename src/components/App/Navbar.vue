@@ -20,31 +20,31 @@ const items = computed(() => [
   {
     label: "Home",
     to: "/",
-    icon: "solar:home-smile-outline",
+    icon: "mdi:home-outline",
     active: route.path === '/'
   },
   {
     label: "Projects",
     to: "/projects/",
-    icon: "solar:folder-with-files-outline",
+    icon: "mdi:folder-file-outline",
     active: route.path.startsWith('/projects')
   },
   {
     label: "Articles",
     to: "/blogs/",
-    icon: "solar:document-add-outline",
+    icon: "mdi:file-document-outline",
     active: route.path.startsWith('/blogs')
   },
   {
     label: "Photos",
     to: "/albums/",
-    icon: "solar:gallery-linear",
+    icon: "mdi:image-frame",
     active: route.path.startsWith('/albums')
   },
   {
     label: "Clock",
     to: "/clock/",
-    icon: "solar:clock-circle-linear",
+    icon: "mdi:clock-time-five-outline",
     active: route.path.startsWith('/clock')
   }
 ]);
