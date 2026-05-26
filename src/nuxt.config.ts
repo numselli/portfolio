@@ -109,6 +109,17 @@ export default defineNuxtConfig({
     }
   },
 
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        'vue-use-fixed-header',
+        '@vueuse/core',
+      ]
+    }
+  },
+
   // appConfig: {
     umami: {
       id: '8d5dabea-9c89-4d2f-9ce1-84c7b18758c7',
