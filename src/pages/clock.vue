@@ -116,7 +116,7 @@ if (import.meta.client) {
   if (typeof savedHour12=="string") hour12.value = savedHour12
 
   const savedIncludeSeconds = localStorage.getItem('includeSeconds')
-  if (typeof savedIncludeSeconds=="string") includeSeconds.value = savedIncludeSeconds
+  if (typeof savedIncludeSeconds=="string") includeSeconds.value = savedIncludeSeconds == "true"
 }
 watch(alarms, () => localStorage.setItem('alarms', JSON.stringify(alarms.value)), { deep: true })
 watch(hour12, () => localStorage.setItem('hour12', JSON.stringify(hour12.value)), { deep: true })
