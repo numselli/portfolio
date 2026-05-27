@@ -8,7 +8,7 @@ export default defineEventHandler(async () => {
 
     const outs = await Promise.all(albums.map(async al=>{        
         return {
-            albumName: al.albumName,
+            albumName: al.albumName.replace("[Public]", ""),
             description: al.description,
             thumbnail: `${conf.immichDomain}${getAssetThumbnailPath(al.albumThumbnailAssetId)}?apiKey=${conf.immichKey}&size=preview`,
             updatedAt: al.updatedAt,

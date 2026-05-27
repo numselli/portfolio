@@ -1,11 +1,7 @@
 <template>
   <UContainer>
     <UBlogPosts>
-      <UBlogPost v-for="(album, index) in albums" :title="album.albumName" :key="index" variant="subtle" :image="album.thumbnail" :to="`/albums/${album.id}`" :description="album.description" :date="album.updatedAt">
-        <template #footer>
-          assetCount: {{album.assetCount}}
-        </template>
-      </UBlogPost>
+      <UBlogPost v-for="(album, index) in albums" :title="album.albumName" :key="index" variant="subtle" :image="album.thumbnail" :to="`/albums/${album.id}`" :description="`${album.description} (${album.assetCount} Images)`" :date="album.updatedAt"/>
     </UBlogPosts>
   </UContainer>
 </template>
