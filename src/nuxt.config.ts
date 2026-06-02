@@ -29,6 +29,7 @@ export default defineNuxtConfig({
   },
 
   site: {
+    name: "numselli",
     url: "https://numselli.xyz",
     trailingSlash: true
   },
