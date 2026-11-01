@@ -149,6 +149,7 @@ function addAlarm() {
   newAlarm.value.label = ''
   newAlarm.value.repeat = 'once'
   newAlarm.value.days = []
+  newAlarm.value.alerting = false
 }
 
 const newAlarm = ref({
@@ -157,7 +158,8 @@ const newAlarm = ref({
   label: '',
   enabled: true,
   repeat: 'once',
-  days: []
+  days: [],
+  alerting: false
 })
 
 function toggleDay(day) {
@@ -165,6 +167,9 @@ function toggleDay(day) {
   i === -1 ? newAlarm.value.days.push(day) : newAlarm.value.days.splice(i, 1)
 }
 function alarmAlert(alarm){
+  if (alarm.alerting) return;
+  alarm.alerting = true;
+
   if (isSupported && permissionGranted) show({
     title: `Alarm: ${alarm.label}`,
     dir: 'auto',
@@ -185,6 +190,6 @@ function alarmAlert(alarm){
       cMode.value = origCmode
       clearInterval(alertLoop)
     }
-  }, 1000)
+  }, 1500)
 }
 </script>
